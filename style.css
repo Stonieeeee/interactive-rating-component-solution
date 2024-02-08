@@ -1,0 +1,175 @@
+:root {
+    /* color */
+    --primary-orange: hsl(25, 97%, 53%);
+
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-light-grey: hsl(217, 12%, 63%);
+    --neutral-medium-grey: hsl(216, 12%, 54%);
+    --neutral-blue-100: hsl(213, 19%, 18%);
+    --neutral-blue-300: hsl(216, 12%, 8%);
+
+    /* typography */
+    --ff-accent: 'Overpass', sans-serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+
+    --fs-root: 15px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff-accent);
+    background-color: #121417;
+}
+
+.card__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* rate card styling */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(37, 45, 55);
+    background: linear-gradient(0deg, hsl(213, 18%, 10%) 0%, hsl(213, 19%, 15%) 100%);
+    padding: 2.1rem;
+    width: 400px;
+    height: 350px;
+    border-radius: 25px;
+    font-size: var(--fs-root);
+}
+
+/* end styling */
+
+/* thank you card styling  */
+
+.card__appreciate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: rgb(37, 45, 55);
+    background: linear-gradient(0deg, hsl(213, 18%, 10%) 0%, hsl(213, 19%, 15%) 100%);
+    padding: 2rem;
+    width: 400px;
+    height: 350px;
+    border-radius: 25px;
+    font-size: var(--fs-root);
+}
+
+/* end styling */
+
+/* hide thank you card */
+.hidden {
+    display: none;
+}
+
+.img__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--neutral-blue-100);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.img__container img {
+    width: 35%;
+}
+
+.card h2,
+.card__appreciate h2 {
+    color: var(--neutral-white);
+    font-size: 1.7rem;
+}
+
+.card p {
+    color: var(--neutral-medium-grey);
+}
+
+.card__appreciate p {
+    color: var(--neutral-medium-grey);
+    text-align: center;
+}
+
+.result {
+    background-color: var(--neutral-blue-100);
+    padding: 5px 20px;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+}
+
+.result p {
+    color: var(--primary-orange);
+    text-align: center;
+}
+
+.rate__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    border: 0;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: var(--neutral-blue-100);
+    color: var(--neutral-medium-grey);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--primary-orange);
+    color: var(--neutral-white);
+}
+
+.btn:focus {
+    background-color: var(--neutral-light-grey);
+    color: var(--neutral-white);
+}
+
+.submit__btn,
+.rate__btn {
+    border: 0;
+    padding: 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: var(--primary-orange);
+    color: var(--neutral-white);
+    font-weight: var(--fw-bold);
+    cursor: pointer;
+}
+
+.submit__btn:hover {
+    background-color: var(--neutral-white);
+    color: var(--primary-orange);
+}
+
+@media (max-width: 550px) {
+    .card {
+        width: 88%;
+        height: 400px;
+        font-size: 1.3rem;
+    }
+
+    .card__appreciate {
+        width: 88%;
+        height: 400px;
+        font-size: 1.3rem;
+    }
+}
