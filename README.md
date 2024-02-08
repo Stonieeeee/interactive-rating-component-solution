@@ -8,8 +8,7 @@
 [![Status][shield-link]][complete-link]<br>
 
 [shield-link]: https://img.shields.io/badge/STATUS-COMPLETE-00ff55
-[complete-link]: https://img.shields.io/badge/STATUS-COMPLETE-00ff55 
-<!-- need to change -->
+[complete-link]: https://stonieeeee.github.io/interactive-rating-component-solution/
 
 [![Front end mentor link][shield-link2]][my-link2] [![Github Link][shield-link3]][my-link3]
 
@@ -49,8 +48,8 @@ This is a solution to the [Interactive rating component coding challenge on Fron
 
 ### Link 🔗
 
-- <a href="" target="_blank">Solution (Frontend Mentor)</a>
-- <a href="" target="_blank">Live Site (Github)</a>
+- <a href="https://www.frontendmentor.io/solutions/interactive-rating-component-using-css-flexbox-t5HJL-3ydf" target="_blank">Solution (Frontend Mentor)</a>
+- <a href="https://stonieeeee.github.io/interactive-rating-component-solution/" target="_blank">Live Site (Github)</a>
 
 ### Screenshot 📸
 
@@ -89,6 +88,7 @@ This is a solution to the [Interactive rating component coding challenge on Fron
 
 ### Added Feature ✨
 
+- Re-rate button when you forget to enter a number after pressing the submit button.
 
 ## Author ✍️
 
